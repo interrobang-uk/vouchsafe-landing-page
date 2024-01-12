@@ -94,6 +94,59 @@ const IndexPage = () => (
       </Link>
     </section>
 
+    <section className="vs-problem">
+      <div className="container vs-problem__inner">
+        <div className="vs-problem__columns">
+          <article>
+            <p className="vs-problem__caption">By the numbers</p>
+            <h2>Over 11 million people in the UK don’t have ID</h2>
+            <p>
+              Without an document like a passport or driving license, you’ll
+              struggle to access housing, banking, healthcare and even voting in
+              elections. With the UK's first general election with voter ID
+              coming later this year, the problem is urgent and serious.
+            </p>
+          </article>
+
+          <aside className="vs-problem__citation">
+            <img src="https://placehold.it/500x300" alt="" />
+
+            <h3>
+              <Link href="https://www.bbc.co.uk/news/uk-england-london-67031730">
+                Voter ID: Almost 1 in 6 Londoners without suitable documents -
+                report
+              </Link>
+            </h3>
+
+            <p className="vs-problem__tag">Data</p>
+          </aside>
+        </div>
+
+        <dl className="vs-problem__stats">
+          <div>
+            <dd>11 million</dd>
+            <dt>people in the UK without ID</dt>
+          </div>
+          <div>
+            <dd>1 billion</dd>
+            <dt>people worldwide</dt>
+          </div>
+          <div>
+            <dd>4%</dd>
+            <dt>of UK residents don't have a bank account</dt>
+          </div>
+          <div>
+            <dd>XYZ</dd>
+            <dt>xyz</dt>
+          </div>
+          <div>
+            <dd>XYZ</dd>
+            <dt>xyz</dt>
+          </div>
+        </dl>
+      </div>
+    </section>
+
     <footer className="vs-footer">
       <div className="container">{/* FOOTER */}</div>
     </footer>
