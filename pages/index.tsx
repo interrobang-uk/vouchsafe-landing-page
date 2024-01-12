@@ -103,8 +103,7 @@ const IndexPage = () => (
             <p>
               Without an document like a passport or driving license, you’ll
               struggle to access housing, banking, healthcare and even voting in
-              elections. With the UK's first general election with voter ID
-              coming later this year, the problem is urgent and serious.
+              elections.
             </p>
           </article>
 
@@ -128,7 +127,7 @@ const IndexPage = () => (
             <dt>people in the UK without ID</dt>
           </div>
           <div>
-            <dd>1 billion</dd>
+            <dd>1bn</dd>
             <dt>people worldwide</dt>
           </div>
           <div>
