@@ -56,7 +56,7 @@ const IndexPage = () => (
         </nav>
 
         <nav className="vs-header__cta-menu">
-          <Link href="#" className="vs-header__cta">
+          <Link href="#" className="vs-header__cta  vs-header__cta--secondary">
             Menu link
           </Link>
           <Link href="#" className="vs-header__cta vs-header__cta--primary">
