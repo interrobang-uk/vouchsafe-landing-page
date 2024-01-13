@@ -159,7 +159,7 @@ const IndexPage = () => (
             </article>
 
             <aside className="vs-section__citation">
-              <img src="/news.jpg.webp" alt="" />
+              <Image src="/news.jpg.webp" alt="" width={300} height={300} />
               <div>
                 <h3>
                   <Link href="https://www.bbc.co.uk/news/uk-england-london-67031730">

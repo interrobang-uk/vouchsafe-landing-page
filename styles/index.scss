@@ -262,7 +262,11 @@ body {
 }
 
 .vs-main {
-  padding: 4rem $padding;
+  padding: 2rem $padding;
+
+  @media screen and (min-width: $breakpoint-m) {
+    padding: 4rem $padding;
+  }
 }
 
 .vs-section {
@@ -275,6 +279,8 @@ body {
   &__inner {
     display: grid;
     gap: 2.5rem;
+    align-items: start;
+    justify-content: start;
 
     @media screen and (min-width: $breakpoint-m) {
       grid-template-columns: 2fr 3fr;
@@ -311,7 +317,6 @@ body {
   &__citation {
     position: relative;
     margin-top: 2rem;
-    // border: 1px solid $dark;
     background: transparentize($dark, .9);
     border-radius: $rounded;
     display: grid;
