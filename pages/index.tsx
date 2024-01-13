@@ -167,6 +167,7 @@ const IndexPage = () => (
                     - report
                   </Link>
                 </h3>
+
                 <p className="vs-section__tag">Data</p>
               </div>
             </aside>
