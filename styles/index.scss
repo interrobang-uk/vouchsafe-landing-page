@@ -250,8 +250,9 @@ body {
     line-height: .9;
 
     @media screen and (min-width: $breakpoint-m) {
-      font-size: 5rem;
-      max-width: 600px;
+      font-size: 9rem;
+      max-width: 1100px;
+      line-height: .8;
     }
   }
 
