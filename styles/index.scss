@@ -516,8 +516,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    // justify-content: center;
-    // align-items: center;
 
     @media screen and (min-width: $breakpoint-m) {
       grid-column: 2/3;

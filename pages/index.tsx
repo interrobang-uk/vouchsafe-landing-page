@@ -176,7 +176,7 @@ const IndexPage = () => (
           <div className="vs-section__image-grid">
             <div></div>
             <div></div>
-            <div></div>
+            <Image src="/6.jpg" alt="" width={500} height={500} />
           </div>
         </div>
       </section>
@@ -187,11 +187,12 @@ const IndexPage = () => (
             <article className="vs-section__content">
               <p className="vs-section__caption">The solution</p>
               <h2 className="vs-section__headline">
-                Prove your identity with your trusted relationships
+                Prove who you are through your trusted relationships
               </h2>
               <p className="vs-section__explanation">
                 VouchSafe is the only product on the market that lets you prove
-                who you are without relying on a traditional paper ID document.
+                your identity without relying on a traditional paper ID
+                document.
               </p>
             </article>
           </div>
