@@ -104,10 +104,16 @@ const IndexPage = () => (
         </nav>
 
         <nav className="vs-header__cta-menu">
-          <Link href="#" className="vs-header__cta  vs-header__cta--secondary">
-            Menu link
+          <Link
+            href="https://www.youtube.com/watch?v=o8ZNH_sp7xQ"
+            className="vs-header__cta  vs-header__cta--secondary"
+          >
+            Find out how
           </Link>
-          <Link href="#" className="vs-header__cta vs-header__cta--primary">
+          <Link
+            href="https://cal.com/jayeh/chat"
+            className="vs-header__cta vs-header__cta--primary"
+          >
             Get a demo
           </Link>
         </nav>
@@ -117,13 +123,15 @@ const IndexPage = () => (
     <section className="vs-banner">
       <div className="container">
         📢 Scottish Government chooses VouchSafe —{" "}
-        <Link href="#">Read the full announcement</Link>
+        <Link href="https://interrobanguk.substack.com">
+          Read the full announcement
+        </Link>
       </div>
     </section>
 
     <section className="vs-hero">
       <h1>We're making ID work for everyone</h1>
-      <Link href="#">
+      <Link href="https://www.youtube.com/watch?v=o8ZNH_sp7xQ">
         Find out how{" "}
         <svg
           width="468"
