@@ -130,93 +130,96 @@ const IndexPage = () => (
       </Link>
     </section>
 
-    <section className="vs-section">
-      <div className="container vs-section__inner">
-        <div>
-          <article className="vs-section__content">
-            <p className="vs-section__caption">By the numbers</p>
-            <h2 className="vs-section__headline">
-              Over 11 million people in the UK don’t have ID
-            </h2>
-            <p className="vs-section__explanation">
-              Without an document like a passport or driving license, you’ll
-              struggle to access housing, banking, healthcare and even voting in
-              elections.
-            </p>
-          </article>
+    <main className="vs-main" id="main-content">
+      <section className="vs-section">
+        <div className="container vs-section__inner">
+          <div>
+            <article className="vs-section__content">
+              <p className="vs-section__caption">The problem</p>
+              <h2 className="vs-section__headline">
+                Over 11 million people in the UK don’t have ID
+              </h2>
+              <p className="vs-section__explanation">
+                Without an document like a passport or driving license, you’ll
+                struggle to access housing, banking, healthcare and even voting
+                in elections.
+              </p>
+            </article>
 
-          <aside className="vs-section__citation">
-            <img src="/news.jpg.webp" alt="" />
-            <div>
-              <h3>
-                <Link href="https://www.bbc.co.uk/news/uk-england-london-67031730">
-                  Voter ID: Almost 1 in 6 Londoners without suitable documents -
-                  report
-                </Link>
-              </h3>
-              <p className="vs-section__tag">Data</p>
-            </div>
-          </aside>
-        </div>
+            <aside className="vs-section__citation">
+              <img src="/news.jpg.webp" alt="" />
+              <div>
+                <h3>
+                  <Link href="https://www.bbc.co.uk/news/uk-england-london-67031730">
+                    Voter ID: Almost 1 in 6 Londoners without suitable documents
+                    - report
+                  </Link>
+                </h3>
+                <p className="vs-section__tag">Data</p>
+              </div>
+            </aside>
+          </div>
 
-        <div className="vs-section__image-grid">
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className="vs-section__image-grid">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section className="vs-section vs-section--reversed vs-section--dark">
-      <div className="container vs-section__inner">
-        <div>
-          <article className="vs-section__content">
-            <p className="vs-section__caption">The solution</p>
-            <h2 className="vs-section__headline">
-              Prove your identity with your trusted relationships
-            </h2>
-            <p className="vs-section__explanation">
-              VouchSafe is the only product on the market that lets you prove
-              who you are without relying on a traditional paper ID document.
-            </p>
-          </article>
-        </div>
+      <section className="vs-section vs-section--reversed vs-section--dark">
+        <div className="container vs-section__inner">
+          <div>
+            <article className="vs-section__content">
+              <p className="vs-section__caption">The solution</p>
+              <h2 className="vs-section__headline">
+                Prove your identity with your trusted relationships
+              </h2>
+              <p className="vs-section__explanation">
+                VouchSafe is the only product on the market that lets you prove
+                who you are without relying on a traditional paper ID document.
+              </p>
+            </article>
+          </div>
 
-        <div className="vs-section__image-grid">
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className="vs-section__image-grid">
+            <Image src="/4.png" alt="" width={500} height={500} />
+            <div></div>
+            <Image src="/5.jpg" alt="" width={500} height={500} />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section className="vs-section">
-      <div className="container vs-section__inner">
-        <div>
-          <article className="vs-section__content">
-            <p className="vs-section__caption">Move fast and fix things</p>
-            <h2 className="vs-section__headline">
-              Co-created with the people who need it most
-            </h2>
-            <p className="vs-section__explanation">
-              To many of us, being unable to prove who we are is an annoyance or
-              frustration, but to other’s it’s life or livelihood-threatening.
-            </p>
-            <p className="vs-section__explanation">
-              We’re working closely with charities and advocacy groups for
-              refugees, homeless people and survivors of domestic abuse to make
-              VouchSafe in a responsible way.
-            </p>
-          </article>
-        </div>
+      <section className="vs-section">
+        <div className="container vs-section__inner">
+          <div>
+            <article className="vs-section__content">
+              <p className="vs-section__caption">Move fast and fix things</p>
+              <h2 className="vs-section__headline">
+                Co-created with the people who need it most
+              </h2>
+              <p className="vs-section__explanation">
+                To many of us, being unable to prove who we are is an annoyance
+                or frustration, but to other’s it’s life or
+                livelihood-threatening.
+              </p>
+              <p className="vs-section__explanation">
+                We’re working closely with charities and advocacy groups for
+                refugees, homeless people and survivors of domestic abuse to
+                make VouchSafe in a responsible way.
+              </p>
+            </article>
+          </div>
 
-        <div className="vs-section__image-grid">
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className="vs-section__image-grid">
+            <Image src="/2.jpg" alt="" width={500} height={500} />
+            <Image src="/1.png" alt="" width={500} height={500} />
+            <Image src="/3.jpg" alt="" width={500} height={500} />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <blockquote className="vs-testimonial">
       <div className="vs-testimonial__inner container">

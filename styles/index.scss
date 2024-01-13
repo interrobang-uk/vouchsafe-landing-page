@@ -40,6 +40,7 @@ $breakpoint-m: 1000px;
     height: auto;
   }
 
+
   &:focus,
   &:active {
     color: $yellow;
@@ -177,7 +178,7 @@ body {
     display: none;
 
     @media screen and (min-width: $breakpoint-s) {
-      display: block;
+      display: inline-flex;
     }
   }
 
@@ -185,7 +186,7 @@ body {
     display: none;
 
     @media screen and (min-width: $breakpoint-xs) {
-      display: block;
+      display: inline-flex;
 
       background: $yellow;
       border: none;
@@ -260,11 +261,15 @@ body {
   }
 }
 
+.vs-main {
+  padding: 4rem $padding;
+}
+
 .vs-section {
   padding: $padding;
 
   @media screen and (min-width: $breakpoint-m) {
-    padding: 5rem $padding;
+    padding: 4rem $padding;
   }
 
   &__inner {
@@ -395,10 +400,11 @@ body {
       height: 450px;
     }
 
-    div {
+    div,
+    img {
       background: transparentize($dark, .75);
       border: .5rem solid $light;
-      border-radius: $rounded;
+      border-radius: 15px;
 
       &:nth-child(1) {
         grid-column: 5/13;
@@ -425,6 +431,10 @@ body {
       &>*:first-child {
         order: 2;
       }
+    }
+
+    .vs-section__image-grid {
+      direction: rtl;
     }
 
 
@@ -556,7 +566,7 @@ body {
   }
 
   a {
-    color: $light;
+    color: darken($light, 5);
 
     &:hover {
       text-decoration: none;
