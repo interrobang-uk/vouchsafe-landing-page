@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
+import Script from "next/script"
 
 const url = "https://vouchsafe.interrobang.coop"
 const title = "VouchSafe | Digital identity for everyone"
@@ -55,6 +56,17 @@ const IndexPage = () => (
 
       <link rel="icon" href="/favicon-vs.png" />
       <meta charSet="utf-8" />
+
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-X60V92B7T2" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-X60V92B7T2');
+        `}
+      </Script>
     </Head>
 
     <Link href="#main-content" className="vs-skip-link">
