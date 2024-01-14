@@ -207,7 +207,7 @@ const IndexPage = () => (
 
           <div className="vs-section__image-grid">
             <Image src="/4.png" alt="" width={500} height={500} />
-            <div></div>
+            <Image src="/7.png" alt="" width={500} height={500} />
             <Image src="/5.jpg" alt="" width={500} height={500} />
           </div>
         </div>
