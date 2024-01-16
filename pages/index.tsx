@@ -160,7 +160,7 @@ const IndexPage = () => (
                 Over 11 million people in the UK don’t have ID
               </h2>
               <p className="vs-section__explanation">
-                Without an document like a passport or driving license, you’ll
+                Without a document like a passport or driving license, you’ll
                 struggle to access housing, banking, healthcare and even voting
                 in elections.
               </p>
@@ -182,9 +182,9 @@ const IndexPage = () => (
           </div>
 
           <div className="vs-section__image-grid">
-            <div></div>
-            <div></div>
+            <Image src="/9.jpg" alt="" width={500} height={500} />
             <Image src="/6.jpg" alt="" width={500} height={500} />
+            <Image src="/8.jpg" alt="" width={500} height={500} />
           </div>
         </div>
       </section>
@@ -223,7 +223,7 @@ const IndexPage = () => (
               </h2>
               <p className="vs-section__explanation">
                 To many of us, being unable to prove who we are is an annoyance
-                or frustration, but to other’s it’s life or
+                or frustration, but to others it’s life or
                 livelihood-threatening.
               </p>
               <p className="vs-section__explanation">

@@ -280,8 +280,8 @@ body {
   &__inner {
     display: grid;
     gap: 2.5rem;
-    align-items: start;
-    justify-content: start;
+    align-items: flex-start;
+    justify-content: flex-start;
 
     @media screen and (min-width: $breakpoint-m) {
       grid-template-columns: 2fr 3fr;
@@ -328,7 +328,7 @@ body {
       display: flex;
       flex-direction: column;
 
-      align-items: start;
+      align-items: flex-start;
       gap: .5rem;
     }
 
