@@ -92,14 +92,14 @@ const IndexPage = () => (
         </Link>
 
         <nav className="vs-header__menu">
-          <Link href="#" className="vs-header__link">
-            Menu link
+          <Link href="#problem" className="vs-header__link">
+            The problem
           </Link>
-          <Link href="#" className="vs-header__link">
-            Menu link
+          <Link href="#solution" className="vs-header__link">
+            How it works
           </Link>
-          <Link href="#" className="vs-header__link">
-            Menu link
+          <Link href="#approach" className="vs-header__link">
+            Our approach
           </Link>
         </nav>
 
@@ -108,13 +108,13 @@ const IndexPage = () => (
             href="https://www.youtube.com/watch?v=o8ZNH_sp7xQ"
             className="vs-header__cta  vs-header__cta--secondary"
           >
-            Find out how
+            Watch the video
           </Link>
           <Link
-            href="https://cal.com/jayeh/chat"
+            href="https://vouchsafe.substack.com"
             className="vs-header__cta vs-header__cta--primary"
           >
-            Get a demo
+            Get the week notes
           </Link>
         </nav>
       </div>
@@ -132,7 +132,7 @@ const IndexPage = () => (
     <section className="vs-hero">
       <h1>We're making ID work for everyone</h1>
       <Link href="https://www.youtube.com/watch?v=o8ZNH_sp7xQ">
-        Find out how{" "}
+        Watch the video{" "}
         <svg
           width="468"
           height="401"
@@ -151,7 +151,7 @@ const IndexPage = () => (
     </section>
 
     <main className="vs-main" id="main-content">
-      <section className="vs-section">
+      <section className="vs-section" id="problem">
         <div className="container vs-section__inner">
           <div>
             <article className="vs-section__content">
@@ -189,7 +189,10 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section className="vs-section vs-section--reversed vs-section--dark">
+      <section
+        className="vs-section vs-section--reversed vs-section--dark"
+        id="solution"
+      >
         <div className="container vs-section__inner">
           <div>
             <article className="vs-section__content">
@@ -213,7 +216,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <section className="vs-section">
+      <section className="vs-section" id="approach">
         <div className="container vs-section__inner">
           <div>
             <article className="vs-section__content">
@@ -270,11 +273,11 @@ const IndexPage = () => (
     <section className="vs-coda">
       <h2>Could VouchSafe help you?</h2>
       <p>
-        A no-commitment chat with the founders, and access to your own demo
-        version to try out.
+        If you think so, get weekly updates on what we're doing, who we're
+        talking to and what we're building.
       </p>
-      <Link className="button" href="https://cal.com/jayeh/chat">
-        Book a demo
+      <Link className="button" href="https://vouchsafe.substack.com">
+        Get the week notes
         <svg
           width="25"
           height="25"
