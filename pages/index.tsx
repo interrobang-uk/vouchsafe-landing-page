@@ -123,7 +123,7 @@ const IndexPage = () => (
     <section className="vs-banner">
       <div className="container">
         📢 Scottish Government chooses VouchSafe —{" "}
-        <Link href="https://interrobanguk.substack.com">
+        <Link href="https://interrobanguk.substack.com/p/we-want-to-fix-digital-identity">
           Read the full announcement
         </Link>
       </div>
