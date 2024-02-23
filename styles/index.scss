@@ -682,9 +682,20 @@ body {
   div {
     padding: 1.5rem;
     border-top: 2px solid $dark;
+    line-height: 1.5;
 
     @media screen and (min-width: $breakpoint-m) {
       font-size: 1.1rem;
+    }
+
+
+    p:first-child {
+      margin-top: 0;
+    }
+
+
+    p:last-child {
+      margin-bottom: 0;
     }
   }
 

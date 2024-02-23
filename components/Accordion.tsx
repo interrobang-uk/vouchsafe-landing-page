@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { markdownToHtmlSync } from "../lib/markdown"
 
 interface Props {
   items: any[]
@@ -27,7 +28,13 @@ const Item = item => {
           />
         </svg>
       </button>
-      {open && <div>{item?.fields?.Answer}</div>}
+      {open && (
+        <div
+          dangerouslySetInnerHTML={{
+            __html: markdownToHtmlSync(item?.fields?.Answer),
+          }}
+        ></div>
+      )}
     </li>
   )
 }
