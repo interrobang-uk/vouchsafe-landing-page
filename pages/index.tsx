@@ -139,6 +139,7 @@ const IndexPage = () => (
           <div className="vs-partners__logos">
             <Image src="/civtech.png" alt="" width={300} height={300} />
             <Image src="/scot.png" alt="" width={300} height={300} />
+            <Image src="/bgv1.png" alt="" width={300} height={300} />
             <Image src="/bigissue.svg" alt="" width={300} height={300} />
           </div>{" "}
         </div>

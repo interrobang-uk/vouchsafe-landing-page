@@ -410,10 +410,7 @@ body {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
     gap: 1fr;
-
-    @media screen and (min-width: $breakpoint-m) {
-      height: 450px;
-    }
+    height: 450px;
 
     div,
     img {
@@ -501,7 +498,7 @@ body {
     gap: 2rem;
 
     @media screen and (min-width: $breakpoint-m) {
-      grid-template-columns: 2fr 3fr;
+      grid-template-columns: 2fr 2fr;
       gap: 8rem;
     }
   }
@@ -520,11 +517,11 @@ body {
   &__logos {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 2.5rem 3.5rem;
 
     @media screen and (min-width: $breakpoint-m) {
-      grid-column: 2/3;
-      grid-template-columns: 1fr 1fr 1fr;
+      // grid-column: 2/3;
+      // grid-template-columns: 1fr 1fr 1fr;
     }
   }
 
